@@ -19,7 +19,7 @@ bool isPalindrome(string str,int s,int e)
                 return isPalindrome(str,s+1,e-1);
 }
  int main() {
-     string str="vivek";
+     string str="vivek kumar";
      cout<<isPalindrome(str,s,e);
     return 0;
 } 
